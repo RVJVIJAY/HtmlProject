@@ -13,10 +13,13 @@
   </head>
   <body>
     <header class="bg-dark p-2">
-      <div class="row  ">
-        <div class="col-6 text-white">My Blog</div>
-        <div class="col-6">
-          <ul class="list-inline">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-white">
+          <p class="mb-0">My Blog</p>
+        </div>
+       
+        <div class="col-md-6">
+          <ul class="list-inline d-flex justify-content-md-end justify-content-start mb-0">
             <li class="list-inline-item"><a class="text-decoration-none text-white" href="#">Home</a></li>
             <li class="list-inline-item"><a class="text-decoration-none text-white" href="#">About</a></li>
             <li class="list-inline-item"><a class="text-decoration-none text-white" href="#">Profile</a></li>
@@ -26,70 +29,138 @@
     </header>
     <!-- content -->
      <div class="container mt-4 ms-2">
-        <div class="row">
-            <div class="col-lg-3 col-sm-6">
-                <h1>This is post 1</h1>
-                <h3>Date: Oct 12</h3>
-                <p>This is a picture of a flower.</p>
+      <div class="row">
+        <div class="col-12">
+          <div class="card align-items-center mb-4">
+            <div class="card-title">
+              <h1>Image Gallery </h1>
             </div>
-            <div class="col-lg-3 col-sm-6">
-                <h1>This is post 2</h1>
-                <h3>Date: Oct 13</h3>
-                <p>This is a picture of a sunset.</p>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <h1>This is post 3</h1>
-                <h3>Date: Oct 14</h3>
-                <p>This is a picture of a mountain.</p>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <h1>This is post 4</h1>
-                <h3>Date: Oct 15</h3>
-                <p>This is a picture of a river.</p>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <h1>This is post 5</h1>
-                <h3>Date: Oct 16</h3>
-                <p>This is a picture of a city skyline.</p>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <h1>This is post 6</h1>
-                <h3>Date: Oct 17</h3>
-                <p>This is a picture of a beach.</p>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <h1>This is post 7</h1>
-                <h3>Date: Oct 18</h3>
-                <p>This is a picture of a forest.</p>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <h1>This is post 8</h1>
-                <h3>Date: Oct 19</h3>
-                <p>This is a picture of a starry night.</p>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <h1>This is post 9</h1>
-                <h3>Date: Oct 20</h3>
-                <p>This is a picture of a waterfall.</p>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <h1>This is post 10</h1>
-                <h3>Date: Oct 21</h3>
-                <p>This is a picture of a desert.</p>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <h1>This is post 11</h1>
-                <h3>Date: Oct 22</h3>
-                <p>This is a picture of a rainbow.</p>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <h1>This is post 12</h1>
-                <h3>Date: Oct 23</h3>
-                <p>This is a picture of a garden.</p>
+          </div>
+          </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+                <img src="https://i.pinimg.com/enabled_lo/474x/87/72/39/877239bd64857ff0004a691b451e630d.jpg" class="img-fluid rounded mb-3" alt="Lion"/>
+                <div class="card-body">
+                    <h1>Lion</h1>
+                    <h3>Date: Oct 12</h3>
+                    <p>The king of the jungle.</p>
+                </div>
             </div>
         </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+                <img src="https://i.pinimg.com/enabled_lo/474x/f9/3a/c3/f93ac3787ad5facc4837b8ece6132022.jpg" class="img-fluid rounded mb-3" alt="Elephant"/>
+                <div class="card-body">
+                    <h1>Elephant</h1>
+                    <h3>Date: Oct 13</h3>
+                    <p>The largest land animal.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+                <img src="https://i.pinimg.com/enabled_lo/474x/d1/f5/96/d1f5968f43bc8446a7e6847d21cf2731.jpg" class="img-fluid rounded mb-3" alt="Tiger"/>
+                <div class="card-body">
+                    <h1>Tiger</h1>
+                    <h3>Date: Oct 14</h3>
+                    <p>A powerful big cat.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+                <img src="https://i.pinimg.com/474x/c1/04/e7/c104e7478f30014c3f0cb26a70762305.jpg" class="img-fluid rounded mb-3" alt="Giraffe"/>
+                <div class="card-body">
+                    <h1>Giraffe</h1>
+                    <h3>Date: Oct 15</h3>
+                    <p>The tallest land animal.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+                <img src="https://i.pinimg.com/enabled_lo/474x/87/92/ff/8792ffa946fe265495b31ea700fa6909.jpg" class="img-fluid rounded mb-3" alt="Zebra"/>
+                <div class="card-body">
+                    <h1>Zebra</h1>
+                    <h3>Date: Oct 16</h3>
+                    <p>Known for its black and white stripes.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+                <img src="https://i.pinimg.com/enabled_lo/474x/0c/3e/3b/0c3e3b18e2f96ed2eff46fbabb286808.jpg" class="img-fluid rounded mb-3" alt="Panda"/>
+                <div class="card-body">
+                    <h1>Panda</h1>
+                    <h3>Date: Oct 17</h3>
+                    <p>A bear known for its black and white fur.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+                <img src="https://i.pinimg.com/enabled_lo/474x/8f/0a/95/8f0a958ec40c91dfdef6e1d0ea3f256d.jpg" class="img-fluid rounded mb-3" alt="Kangaroo"/>
+                <div class="card-body">
+                    <h1>Kangaroo</h1>
+                    <h3>Date: Oct 18</h3>
+                    <p>A marsupial native to Australia.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+                <img src="https://i.pinimg.com/474x/6f/93/19/6f931933ef5adcfd7ab8e2bf6f5a3965.jpg" class="img-fluid rounded mb-3" alt="Cheetah"/>
+                <div class="card-body">
+                    <h1>Cheetah</h1>
+                    <h3>Date: Oct 19</h3>
+                    <p>The fastest land animal.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+                <img src="https://i.pinimg.com/474x/22/a3/ef/22a3efdc2a324711e02cbfd36a851e07.jpg" class="img-fluid rounded mb-3" alt="Gorilla"/>
+                <div class="card-body">
+                    <h1>Gorilla</h1>
+                    <h3>Date: Oct 20</h3>
+                    <p>The largest primate in the world.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+                <img src="https://i.pinimg.com/474x/d4/34/15/d43415cdf2ddb817f1621cde2704b574.jpg" class="img-fluid rounded mb-3" alt="Polar Bear"/>
+                <div class="card-body">
+                    <h1>Polar Bear</h1>
+                    <h3>Date: Oct 21</h3>
+                    <p>A large bear native to the Arctic.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+                <img src="https://i.pinimg.com/474x/bf/4f/2a/bf4f2a10306ecf1c436603ebccef0333.jpg" class="img-fluid rounded mb-3" alt="Eagle"/>
+                <div class="card-body">
+                    <h1>Eagle</h1>
+                    <h3>Date: Oct 22</h3>
+                    <p>A bird of prey known for its keen eyesight.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card">
+                <img src="https://i.pinimg.com/474x/19/58/c2/1958c2deafa5cede0d8ca0628152db4c.jpg" class="img-fluid rounded mb-3" alt="Penguin"/>
+                <div class="card-body">
+                    <h1>Penguin</h1>
+                    <h3>Date: Oct 23</h3>
+                    <p>A flightless bird found in Antarctica.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
      </div>
-     <footer class="bg-dark text-white ps-3">
+     <footer class="bg-dark text-white ps-3 ">
       <div class="row">
         <div class="col">
           <p>all copie rights &copy; 2024</p>
