@@ -34,7 +34,47 @@
      <main>
       <!-- Button -->
       <div class="ms-2">
-        <button type="button" class="btn btn-primary">Go To Task</button>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modelid">Go To Task</button>
+        
+      
+      </div>
+      <!-- Modal it just like an popup box  -->
+      <div class="modal" id="modelid">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+             <h4> Add your task</h4>
+              <div class="btn btn-close" data-bs-dismiss="modal"></div>
+            </div>
+            <div class="modal-body">
+              <form action="" class="form">
+                <div >
+                  <label for="" class="form-label">Enter the title</label>
+                  <input type="text" class="form-control" placeholder="enter ur title"/>
+                </div>
+                <div>
+                  <label for="" class="form-label">Enter description</label>
+                  <textarea class="form-control" placeholder="enter ur description"></textarea>
+                </div>
+                <div>
+                  <label for="" class="form-label">
+                    select status
+                  </label>
+                  <select class="form-select">
+                    <option value="">complete</option>
+                    <option value="">inprogress</option>
+                    <option value="">pending</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Submit</button>
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">cancel
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- Card -->
        <div class="card mt-3 ms-2 col-12 col-lg-6">
